@@ -1,0 +1,68 @@
+// Simple grid
+
+$grid-columns: 8;
+$grid-gutter-width: 20px;
+$grid-breakpoints: (
+  xs: 0,
+);
+
+// Fonts
+
+@font-face {
+  font-family: "WorkSans";
+  // src: url("./fonts/WorkSans-Regular.ttf");
+  // src: url("./fonts/WorkSans-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FontAwesome";
+  // src: url("./fonts/FontAwesome5-Regular-400.otf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FontAwesome";
+  // src: url("./fonts/FontAwesome5-Solid-900.otf");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FontAwesome Brands";
+  // src: url("./fonts/FontAwesome5-Brands-Regular-400.otf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+$font-family-sans-serif: WorkSans, sans-serif;
+
+// Typographic scale
+// Based on 1.414 (Augmented Fourth) scale.
+
+$font-size-base: 1rem;
+$font-size: 1.8rem;
+$line-height-base: 1.65;
+$headings-line-height: 1.15;
+
+// To help you visualise it :-)
+
+$h1-font-size: $font-size-base * 1.414 * 1.414 * 1.414 * 1.414 * 1.414;
+$h2-font-size: $font-size-base * 1.414 * 1.414 * 1.414 * 1.414;
+$h3-font-size: $font-size-base * 1.414 * 1.414 * 1.414;
+$h4-font-size: $font-size-base * 1.414 * 1.414;
+$h5-font-size: $font-size-base * 1.414;
+$h6-font-size: $font-size-base;
+$small-font-size: $font-size-base * 0.707;
+
+// Measure
+
+// Based on 40 characters
+// On average one character takes up 0.5em
+// See: http://webtypography.net/2.1.2
+
+$container-max-widths: (
+  sm: 20em,
+);
