@@ -45,4 +45,8 @@ npm run build
 
 By default fonts are not included, but defined in `src/basics/typography/typography.scss`.
 
+## Related article
+
+[http://ryrych.pl/blog/2020-05-08-front-end-starter/](http://ryrych.pl/blog/2020-05-08-front-end-starter/) (in Polish)
+
 ## Have fun!
